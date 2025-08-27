@@ -44,7 +44,7 @@ O projeto segue uma arquitetura em camadas, organizada da seguinte forma:
 ### Passos
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/Tsoaresaz/todolist-with-spring-boot
 
 # Entre na pasta do projeto
 cd seu-repo
