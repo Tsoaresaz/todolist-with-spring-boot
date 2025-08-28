@@ -50,6 +50,7 @@ O projeto segue uma arquitetura em camadas, organizada da seguinte forma:
 - [x] Criar a **Controller**
 - [x] Criar a **Controller**
 - [x] Documentar a API com **Swagger**
+- [x] Criar teste unitário
 
 ---
 

@@ -38,6 +38,13 @@ public class Todo {
     @PositiveOrZero(message = "Não é aceite valores negativos")
     private Integer prioridade = 0;
 
+    public Todo (String nome, String descricao, Boolean realizado, Integer prioridade) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.realizado = realizado;
+        this.prioridade = prioridade;
+    }
+
     public static Todo fromDTO(RegisterTodoListDTO dto) {
         Todo todo = new Todo();
         todo.setNome(dto.getNome());
