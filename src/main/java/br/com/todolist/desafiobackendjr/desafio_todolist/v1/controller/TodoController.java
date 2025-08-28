@@ -3,6 +3,7 @@ package br.com.todolist.desafiobackendjr.desafio_todolist.v1.controller;
 import br.com.todolist.desafiobackendjr.desafio_todolist.v1.dto.RegisterTodoListDTO;
 import br.com.todolist.desafiobackendjr.desafio_todolist.v1.entity.Todo;
 import br.com.todolist.desafiobackendjr.desafio_todolist.v1.service.TodoService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@Tag(name = "TodoList Controller", description = "Endpoints para o gerenciamento da TodoList")
 @RestController
 @RequestMapping(path = "/v1/api/todolist")
 public class TodoController {

@@ -7,6 +7,23 @@ Este projeto é um desafio de back-end desenvolvido em **Java** utilizando **Spr
 - **Lombok** para reduzir boilerplate de código
 - **DTOs** para transferência de dados
 - **Tratamento de Exceptions** customizado
+- **Swagger/OpenAPI** para documentação da API
+
+---
+
+## ⚙️ Tecnologias Usadas
+
+Java 17+
+
+Spring Boot
+
+Spring Data JPA (Hibernate)
+
+Bean Validation
+
+Lombok
+
+Swagger (Springdoc OpenAPI)
 
 ---
 
@@ -31,10 +48,13 @@ O projeto segue uma arquitetura em camadas, organizada da seguinte forma:
 - [x] Criar o **Service**
 - [x] Criar as **Exceptions**
 - [x] Criar a **Controller**
+- [x] Criar a **Controller**
+- [x] Documentar a API com **Swagger**
 
 ---
 
 ## 🚀 Como rodar o projeto
+
 
 ### Pré-requisitos
 - Java 17+
@@ -51,3 +71,12 @@ cd seu-repo
 
 # Execute o projeto
 mvn spring-boot:run
+```
+
+## 📖 Documentação da API
+
+A documentação da API foi feita com Swagger.
+
+Após rodar o projeto, acesse a interface interativa em:
+
+👉 http://localhost:8080/swagger-ui/index.html
